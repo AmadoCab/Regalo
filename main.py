@@ -182,7 +182,7 @@ while running:
             if boton.collidepoint(event.pos):
                 cont = increase(cont)
     if win(rosco_n):
-        data = "<contraseña>"
+        data = "tiamu"
         subprocess.run("pbcopy", universal_newlines=True, input=data)
         running = False
 
